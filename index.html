@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ALURINHA</title>
+    <title>ALURINHA | Cursos Online</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexbox.css">
 </head>
+
 <body>
     <header class="cabecalhoPrincipal">
         <div class="container">
@@ -50,15 +53,19 @@
             </nav>
         </div>
         <section class="videoSobre">
-            <iframe class="videoSobre-video" width="560" height="315" src="https://www.youtube.com/embed/bIlOsJzBVaY?list=PLh2Y_pKOa4UcF1BYPJR3EIMRi3nWAUxIp" frameborder="0" allowfullscreen></iframe>
-            <div class="videoSobre-sobre">
-                <h2 class="videoSobre-sobre-title">Vantagens do Alurinha</h2>
-                <ul class="videoSobre-sobre-list">
-                    <li class="videoSobre-sobre-item">Estude onde quiser</li>
-                    <li class="videoSobre-sobre-item">Novos cursos todos os meses</li>
-                    <li class="videoSobre-sobre-item">Curso compatíveis com o mercado</li>
-                </ul>
-                <button class="videoSobre-button">Cadastre-se já</button>
+            <div class="container">
+                <iframe class="videoSobre-video" width="560" height="315"
+                    src="https://www.youtube.com/embed/bIlOsJzBVaY?list=PLh2Y_pKOa4UcF1BYPJR3EIMRi3nWAUxIp"
+                    frameborder="0" allowfullscreen></iframe>
+                <div class="videoSobre-sobre">
+                    <h2 class="videoSobre-sobre-title">Vantagens do Alurinha</h2>
+                    <ul class="videoSobre-sobre-list">
+                        <li class="videoSobre-sobre-item">Estude onde quiser</li>
+                        <li class="videoSobre-sobre-item">Novos cursos todos os meses</li>
+                        <li class="videoSobre-sobre-item">Curso compatíveis com o mercado</li>
+                    </ul>
+                    <button class="videoSobre-button">Cadastre-se já</button>
+                </div>
             </div>
         </section>
     </main>
@@ -67,71 +74,75 @@
             <section class="rodapePrincipal-navMap">
                 <h3 class="subtitulo">Mapa de cursos</h3>
                 <nav class="rodapePrincipal-navMap-list">
-                    
+
                     <h4 class="navmap-list-title navmap-list-title-backend">Linguagens Backend</h4>
-					<a class="rodapePrincipal-navMap-link" href="#">Java</a>
-					<a class="rodapePrincipal-navMap-link" href="#">PHP</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Pascal</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Scala</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Python</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Java Web</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Assembly</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Lógica de programação</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">Java</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">PHP</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">Pascal</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">Scala</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">Python</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">Java Web</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">Assembly</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">Lógica de programação</a>
 
                     <h4 class="navmap-list-title navmap-list-title-frontend">Linguagens Frontend</h4>
-					<a class="rodapePrincipal-navMap-link" href="#">Flexbox</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Desenvolvimento Web</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Javascript</a>
-					<a class="rodapePrincipal-navMap-link" href="#">AngularJS</a>
-					<a class="rodapePrincipal-navMap-link" href="#">ReactJS</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Polymer</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">Flexbox</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">Desenvolvimento Web</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">Javascript</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">AngularJS</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">ReactJS</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">Polymer</a>
 
                     <h4 class="navmap-list-title navmap-list-title-framework">Frameworks</h4>
-					<a class="rodapePrincipal-navMap-link" href="#">Ruby on Rails</a>
-					<a class="rodapePrincipal-navMap-link" href="#">VRaptor</a>
-					<a class="rodapePrincipal-navMap-link" href="#">SpringMVC</a>
-					<a class="rodapePrincipal-navMap-link" href="#">NodeJS</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Django</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Bootstrap3</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">Ruby on Rails</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">VRaptor</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">SpringMVC</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">NodeJS</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">Django</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">Bootstrap3</a>
 
                     <h4 class="navmap-list-title navmap-list-title-bancoDeDados">Banco de dados</h4>
-					<a class="rodapePrincipal-navMap-link" href="#">MySQL</a>
-					<a class="rodapePrincipal-navMap-link" href="#">MariaDB</a>
-					<a class="rodapePrincipal-navMap-link" href="#">Postegres</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">MySQL</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">MariaDB</a>
+                    <a class="rodapePrincipal-navMap-link" href="#">Postegres</a>
 
                 </nav>
             </section>
         </div>
         <section class="rodapePrincipal-patrocinadores">
             <div class="container">
-                <ul class="rodadePrincipal-patrocinadores-list">
+                <ul class="rodapePrincipal-patrocinadores-list">
                     <li>
-						<a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-alura" href="#">
-							<img src="image/brand/alura.svg" alt="Logo da Alura">
-						</a>
-					</li>
-					<li>
-						<a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-caelum" href="#">
-							<img src="image/brand/caelum.svg" alt="Logo da Caelum">
-						</a>
-					</li>
-					<li>
-						<a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-casaDoCodigo" href="#">
-							<img src="image/brand/cdc.svg" alt="Logo da Casa do Código">
-						</a>
-					</li>
+                        <a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-alura" href="#">
+                            <img src="image/brand/alura.svg" alt="Logo da Alura">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-caelum" href="#">
+                            <img src="image/brand/caelum.svg" alt="Logo da Caelum">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-casaDoCodigo"
+                            href="#">
+                            <img src="image/brand/cdc.svg" alt="Logo da Casa do Código">
+                        </a>
+                    </li>
                 </ul>
                 <form class="rodapePrincipal-contatoForm" action="#">
-					<fieldset>
-						<legend class="rodapePrincipal-contatoForm-legend" for="email-contato">Entre em contato conosco</legend>
-						<div class="rodapePrincipal-contatoForm-fieldset"> 
-							<input class="rodapePrincipal-contatoForm-emailInput" type="email" name="email-contato" id="email-contato">
-							<button class="rodapePrincipal-contatoForm-submit" type="submit">Enviar</button>
-						</div>
-					</fieldset>
-				</form>
+                    <fieldset>
+                        <legend class="rodapePrincipal-contatoForm-legend" for="email-contato">Entre em contato conosco
+                        </legend>
+                        <div class="rodapePrincipal-contatoForm-fieldset">
+                            <input class="rodapePrincipal-contatoForm-emailInput" type="email" name="email-contato"
+                                id="email-contato">
+                            <button class="rodapePrincipal-contatoForm-submit" type="submit">Enviar</button>
+                        </div>
+                    </fieldset>
+                </form>
             </div>
         </section>
     </footer>
 </body>
+
 </html>
