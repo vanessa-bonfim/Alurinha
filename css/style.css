@@ -69,10 +69,10 @@ body {
     margin: 10px auto;
 }
 .conteudoPrincipal-cursos-link:nth-child(even) a:before { /*even é par*/
-    background: url(/image/background1.svg) no-repeat;
+    background: url(../image/background1.svg) no-repeat;
 }
 .conteudoPrincipal-cursos-link:nth-child(odd) a:before { /*odd é ímpar*/
-    background: url(/image/background2.svg) no-repeat;
+    background: url(../image/background2.svg) no-repeat;
 }
 .videoSobre {
 	background-color: #5E9EDC;
